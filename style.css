@@ -1,0 +1,179 @@
+/* CSS Reset */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+ 
+  input, button, textarea, select {
+    font: inherit;
+  }
+ 
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  /* My Code */
+
+  /* Body CSS */
+
+  body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+  }
+
+  /* Main CSS */
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 70px;
+  }
+  
+  /* Header CSS */
+
+  header {
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    height: 69px;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .symbol {
+    height: 50px;
+  }
+
+  .navbar {
+    display: flex;
+    list-style: none;
+    text-decoration: underline;
+  }
+
+  .navbar li {
+    margin-left: 20px;
+  }
+
+  .navbar li a {
+    color: seashell;
+  }
+
+  /* Mission CSS */
+
+  .mission {
+    background-image: url("images/img-mission-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+  }
+
+  .mission__container {
+    background-color: black;
+  }
+
+/* Tea of the Month CSS */
+
+.totm {
+  margin-top: 50px;
+  width: 1000px;
+}
+
+.food-img {
+  height: 200px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.totm__img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* Locations CSS */
+
+.locations {
+  background-image: url(images/img-locations-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+}
+
+.locations__container {
+  margin-top: 15px;
+  display: flex;
+}
+
+.locations__places {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin: 32px;
+  height: 300px;
+  width: 300px;
+}
+
+/* Footer CSS */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding: 20px;
+}
